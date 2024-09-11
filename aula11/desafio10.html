@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        body {
+            background: rgb(164, 253, 164);
+            color: rgb(1, 43, 1);
+        }
+    </style>
+</head>
+<body>
+     <h1> Identificando sua nacionalidade</h1>
+     País de origem: <input type="text" name="naci" id="naci">
+     <input type="button" value="enviar" onclick="enviar()">
+     <div id="pais"></div>
+    <script>
+     function enviar () {
+        var naci = window.document.querySelector('input#naci').value;
+        var res = window.document.querySelector('div#pais');
+        res.innerHTML = "";
+        if (naci === 'Brasil') {
+            res.innerHTML += "<p> Você é brasileiro(a)!</p>";
+        } else {
+        res.innerHTML +=  "<p> Você é estrangeiro! </p>";
+        }
+     }
+    </script>
+</body>
+</html>
