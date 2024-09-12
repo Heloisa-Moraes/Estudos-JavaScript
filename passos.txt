@@ -1,3 +1,9 @@
 comit: 
 git config --global user.name Heloisa-Moraes
 git config --global user.email helomoraes2009@hotmail.com
+
+
+ativar o node exec no visual: 
+abrir a pasta do arquivo  cd + nome da pasta 
+
+depois digitar node + nome do arquivo. 
