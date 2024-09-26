@@ -26,9 +26,10 @@ footer {
     font-style: italic;
 }
 
-#foto img {
-    width: 100%;
+#foto {
     max-width: 300px;
-    height: auto;
+    width: 300px;
+    height: 300px;
+
 }
 
